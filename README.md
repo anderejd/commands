@@ -21,3 +21,6 @@ sudo kbd_mode -u
 
 ### Get the git branch name as a string
 $(git rev-parse --abbrev-ref HEAD)
+
+### SSH tunnels
+https://unix.stackexchange.com/questions/46235/how-does-reverse-ssh-tunneling-work/118650#118650
