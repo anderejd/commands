@@ -29,3 +29,8 @@ https://unix.stackexchange.com/questions/46235/how-does-reverse-ssh-tunneling-wo
 ```
 sudo ssh me@my-machine.local -L my-machine.local:80:some-remote-machine:8001
 ```
+
+### Find process owning a port:
+```
+sudo lsof -i ':80' | grep LISTEN
+```
