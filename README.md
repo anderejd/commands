@@ -1,6 +1,11 @@
 # commands
 Nice-to-have, not-as-nice-to-have-to-remember commands.
 
+### Save a Rust build time report
+```
+cargo +nightly build -Z timings
+```
+
 ### Strip Rust applications
 ```
 RUSTFLAGS='-C link-arg=-s' cargo build --release
