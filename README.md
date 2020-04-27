@@ -1,6 +1,11 @@
 # commands
 Nice-to-have, not-as-nice-to-have-to-remember commands.
 
+### Strip Rust applications
+```
+RUSTFLAGS='-C link-arg=-s' cargo build --release
+```
+
 ### Search code in the git history for "find_me", case insensitive, and print the diff:
 ```
 git log -S find_me -i -p
