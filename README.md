@@ -5,6 +5,7 @@ Nice-to-have, not-as-nice-to-have-to-remember commands.
 ```
 RUSTFLAGS='-C link-arg=-s' cargo build --release
 ```
+https://github.com/rust-lang/cargo/issues/3483#issuecomment-431209957
 
 ### Search code in the git history for "find_me", case insensitive, and print the diff:
 ```
